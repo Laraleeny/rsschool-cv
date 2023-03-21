@@ -23,16 +23,16 @@ I have been interested in programming for quite a while and finally have decided
 ## Code example
 ```
 checkDate() {
-					this.currentDate = moment();
-					if (moment(this.timerDate).isBefore(this.currentDate)) {
-					  alert('Дата уже прошла');
-					  return;
-					}
-					if (this.timerDate === '') {
-					  alert('Пожалуйста введите дату');
-					  return;
-					} else {
-					  startCount();
-					}
-				  }
+  this.currentDate = moment();
+  if (moment(this.timerDate).isBefore(this.currentDate)) {
+    alert('Дата уже прошла');
+    return;
+  }
+  if (this.timerDate === '') {
+    alert('Пожалуйста введите дату');
+    return;
+  } else {
+    startCount();
+  }
+}
 ```
