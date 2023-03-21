@@ -36,3 +36,13 @@ checkDate() {
   }
 }
 ```
+
+## Education
++ Specialist's diploma, Ivanovo State University of Chemistry and Technology (ISUCT)
+  - Faculty of Technical Cybernetics and Automation
++ RS School
+  -Frontend-developer 2022/2023 (stage 0)
+
+## Languages
+ + Russian
+ + English (B1)
