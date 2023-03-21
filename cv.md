@@ -19,3 +19,20 @@ I have been interested in programming for quite a while and finally have decided
 + Version control: Git (remote service GitHub)
 + Figma (for web development)
 + Editors: Sublime, VSCode
+
+## Code example
+```
+checkDate() {
+					this.currentDate = moment();
+					if (moment(this.timerDate).isBefore(this.currentDate)) {
+					  alert('Дата уже прошла');
+					  return;
+					}
+					if (this.timerDate === '') {
+					  alert('Пожалуйста введите дату');
+					  return;
+					} else {
+					  startCount();
+					}
+				  }
+```
